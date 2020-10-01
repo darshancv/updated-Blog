@@ -9,6 +9,20 @@
         <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
       </div>
       <button class="btn btn-primary" type="submit" name="button">Publish</button>
+
+
     </form>
+    <form action="/delete" method="post">
+      <div class="form-group">
+        <h1>Delete:</h1>
+        <label>Title</label>
+        <input class="form-control" type="text" name="DeleteTitle">
+        </div>
+        <button  class="btn btn-primary" type="Submit" name="button">Delete</button>
+
+
+      </form>
+
+
 
 <%- include("partials/footer"); -%>
